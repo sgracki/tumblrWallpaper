@@ -1,0 +1,29 @@
+{
+  "name": "tumblrwallpaper",
+  "version": "1.0.0",
+  "description": "set pics from tumblr profile as desktop wallpeper in interval :))",
+  "main": "scrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgracki/tumblrWallpaper.git"
+  },
+  "keywords": [
+    "scrap",
+    "tumblr"
+  ],
+  "author": "Szymon Grącki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgracki/tumblrWallpaper/issues"
+  },
+  "homepage": "https://github.com/sgracki/tumblrWallpaper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "http": "0.0.0",
+    "request": "^2.83.0",
+    "wallpaper": "^2.6.0"
+  }
+}
