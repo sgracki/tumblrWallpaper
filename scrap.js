@@ -9,11 +9,11 @@ function intervalWpChange(images) {
         wallpaper.set(images[Math.floor(Math.random()*images.length)]).then(() => {
             console.log('Wallpaper changed.');
         });
-    }, 10000);
+    }, 60000);
 }
 
 request({
-    url: `https://<profilename>.tumblr.com`
+    url: `https://byjuliab.tumblr.com`
 }, (error, response, body) => {
     var images = [], i = 0;
     var $ = cheerio.load(body);
